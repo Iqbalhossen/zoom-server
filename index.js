@@ -26,6 +26,7 @@ app.use("/public/", express.static("./public/"));
 const allowedOrigins = [
   "http://localhost:3000",
   "https://tasko-abc.netlify.app",
+  `${process.env.FRONTEND_URL}`
 ];
 
 
